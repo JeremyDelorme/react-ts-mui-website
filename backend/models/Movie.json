@@ -1,0 +1,290 @@
+[
+    {
+        "Name": "Clockwork Orange",
+        "Year": "1971",
+        "Director": "Stanley Kubrick",
+        "Country": "United Kingdom",
+        "ShortDescription": "In the dystopian near future, a delinquent named Alex leads a gang of thugs. After his arrest, he undergoes an experimental aversion therapy to cure his violent tendencies.",
+        "PosterImage": "https://example.com/clockwork_orange_poster.jpg",
+        "Genre": "Dystopian"
+    },
+    {
+        "Name": "Melancholia",
+        "Year": "2011",
+        "Director": "Lars von Trier",
+        "Country": "Denmark",
+        "ShortDescription": "As a planet named Melancholia approaches Earth, two sisters grapple with their strained relationship while the world faces an impending collision.",
+        "PosterImage": "https://example.com/melancholia_poster.jpg",
+        "Genre": "Drama"
+    },
+    {
+        "Name": "Dancer in the Dark",
+        "Year": "2000",
+        "Director": "Lars von Trier",
+        "Country": "Denmark",
+        "ShortDescription": "A Czech immigrant in the United States is slowly going blind but works tirelessly to secure a future for her son. She escapes into a world of musical daydreams.",
+        "PosterImage": "https://example.com/dancer_in_the_dark_poster.jpg",
+        "Genre": "Musical"
+    },
+    {
+        "Name": "Pulp Fiction",
+        "Year": "1994",
+        "Director": "Quentin Tarantino",
+        "Country": "United States",
+        "ShortDescription": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "PosterImage": "https://example.com/pulp_fiction_poster.jpg",
+        "Genre": "Crime"
+    },
+    {
+        "Name": "Planète Sauvage",
+        "Year": "1973",
+        "Director": "René Laloux",
+        "Country": "France",
+        "ShortDescription": "In a distant future, humans are kept as pets by a race of blue giants. One human, Terr, seeks freedom and rebellion against his captors.",
+        "PosterImage": "https://example.com/planete_sauvage_poster.jpg",
+        "Genre": "Animation"
+    },
+    {
+        "Name": "The Shining",
+        "Year": "1980",
+        "Director": "Stanley Kubrick",
+        "Country": "United States",
+        "ShortDescription": "A family heads to an isolated hotel for the winter, where an evil and supernatural presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+        "PosterImage": "https://example.com/the_shining_poster.jpg",
+        "Genre": "Horror"
+    },
+    {
+        "Name": "2001: A Space Odyssey",
+        "Year": "1968",
+        "Director": "Stanley Kubrick",
+        "Country": "United States",
+        "ShortDescription": "Humanity finds a mysterious, obviously artificial object buried beneath the Lunar surface and, with the intelligent computer H.A.L. 9000, sets off on a quest.",
+        "PosterImage": "https://example.com/2001_space_odyssey_poster.jpg",
+        "Genre": "Science Fiction"
+    },
+    {
+        "Name": "The Godfather",
+        "Year": "1972",
+        "Director": "Francis Ford Coppola",
+        "Country": "United States",
+        "ShortDescription": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+        "PosterImage": "https://example.com/godfather_poster.jpg",
+        "Genre": "Crime"
+    },
+    {
+        "Name": "Scarface",
+        "Year": "1983",
+        "Director": "Brian De Palma",
+        "Country": "United States",
+        "ShortDescription": "In Miami, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
+        "PosterImage": "https://example.com/scarface_poster.jpg",
+        "Genre": "Crime"
+    },
+    {
+        "Name": "In the Mood for Love",
+        "Year": "2000",
+        "Director": "Wong Kar-wai",
+        "Country": "Hong Kong",
+        "ShortDescription": "Two neighbors form a strong connection after suspecting their spouses of infidelity. They develop a close but platonic bond as they both try to discover the truth.",
+        "PosterImage": "https://example.com/in_the_mood_for_love_poster.jpg",
+        "Genre": "Romance"
+    },
+    {
+        "Name": "Wild at Heart",
+        "Year": "1990",
+        "Director": "David Lynch",
+        "Country": "United States",
+        "ShortDescription": "Young lovers Sailor and Lula run from the variety of weirdos that Lula's mom has hired to kill Sailor.",
+        "PosterImage": "https://example.com/wild_at_heart_poster.jpg",
+        "Genre": "Crime"
+    },
+    {
+        "Name": "Mulholland Drive",
+        "Year": "2001",
+        "Director": "David Lynch",
+        "Country": "United States",
+        "ShortDescription": "After a car wreck on the winding Mulholland Drive renders a woman amnesiac, she and a perky Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality.",
+        "PosterImage": "https://example.com/mulholland_drive_poster.jpg",
+        "Genre": "Mystery"
+    },
+    {
+        "Name": "Trainspotting",
+        "Year": "1996",
+        "Director": "Danny Boyle",
+        "Country": "United Kingdom",
+        "ShortDescription": "Renton, deeply immersed in the Edinburgh drug scene, tries to clean up and get out, despite the allure of the drugs and influence of friends.",
+        "PosterImage": "https://example.com/trainspotting_poster.jpg",
+        "Genre": "Drama"
+    },
+    {
+        "Name": "Annie Hall",
+        "Year": "1977",
+        "Director": "Woody Allen",
+        "Country": "United States",
+        "ShortDescription": "Neurotic New York comedian Alvy Singer falls in love with the ditsy Annie Hall.",
+        "PosterImage": "https://example.com/annie_hall_poster.jpg",
+        "Genre": "Comedy"
+    },
+    {
+        "Name": "The Nightmare Before Christmas",
+        "Year": "1993",
+        "Director": "Henry Selick",
+        "Country": "United States",
+        "ShortDescription": "Jack Skellington, the king of Halloween Town, discovers Christmas Town but doesn't quite understand the concept.",
+        "PosterImage": "https://example.com/nightmare_before_christmas_poster.jpg",
+        "Genre": "Animation"
+    },
+    {
+        "Name": "The Lion King",
+        "Year": "1994",
+        "Director": "Roger Allers, Rob Minkoff",
+        "Country": "United States",
+        "ShortDescription": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
+        "PosterImage": "https://example.com/lion_king_poster.jpg",
+        "Genre": "Animation"
+    },
+    {
+        "Name": "Kirikou and the Sorceress",
+        "Year": "1998",
+        "Director": "Michel Ocelot, Raymond Burlet",
+        "Country": "France, Belgium",
+        "ShortDescription": "Kirikou, a small boy, goes on a journey to free his village from the evil sorceress Karaba.",
+        "PosterImage": "https://example.com/kirikou_poster.jpg",
+        "Genre": "Animation"
+    },
+    {
+        "Name": "Brazil",
+        "Year": "1985",
+        "Director": "Terry Gilliam",
+        "Country": "United Kingdom",
+        "ShortDescription": "A bureaucrat, in a retro-future world, tries to correct an administrative error and becomes an enemy of the state.",
+        "PosterImage": "https://example.com/brazil_poster.jpg",
+        "Genre": "Science Fiction"
+    },
+    {
+        "Name": "12 Monkeys",
+        "Year": "1995",
+        "Director": "Terry Gilliam",
+        "Country": "United States",
+        "ShortDescription": "In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.",
+        "PosterImage": "https://example.com/12_monkeys_poster.jpg",
+        "Genre": "Science Fiction"
+    },
+    {
+        "Name": "Moonrise Kingdom",
+        "Year": "2012",
+        "Director": "Wes Anderson",
+        "Country": "United States",
+        "ShortDescription": "A pair of young lovers flee their New England town, causing a local search party to fan out to find them.",
+        "PosterImage": "https://example.com/moonrise_kingdom_poster.jpg",
+        "Genre": "Comedy"
+    },
+    {
+        "Name": "Do the Right Thing",
+        "Year": "1989",
+        "Director": "Spike Lee",
+        "Country": "United States",
+        "ShortDescription": "On the hottest day of the year on a street in Brooklyn, everyone's hate and bigotry smolders and builds until it explodes into violence.",
+        "PosterImage": "https://example.com/do_the_right_thing_poster.jpg",
+        "Genre": "Drama"
+    },
+    {
+        "Name": "Women on the Verge of a Nervous Breakdown",
+        "Year": "1988",
+        "Director": "Pedro Almodóvar",
+        "Country": "Spain",
+        "ShortDescription": "Pepa's lover, Iván, leaves her and she tries to contact him to find out why he's left. In the process, she encounters his wife, his son, his ex-lover, and his new lover.",
+        "PosterImage": "https://example.com/women_on_the_verge_poster.jpg",
+        "Genre": "Comedy"
+    },
+    {
+        "Name": "Blade Runner",
+        "Year": "1982",
+        "Director": "Ridley Scott",
+        "Country": "United States",
+        "ShortDescription": "A blade runner must pursue and terminate four replicants who stole a ship in space, and have returned to Earth to find their creator.",
+        "PosterImage": "https://example.com/blade_runner_poster.jpg",
+        "Genre": "Science Fiction"
+    },
+    {
+        "Name": "Nosferatu",
+        "Year": "1922",
+        "Director": "F.W. Murnau",
+        "Country": "Germany",
+        "ShortDescription": "Vampire Count Orlok expresses interest in a new residence and real estate agent Hutter's wife.",
+        "PosterImage": "https://example.com/nosferatu_poster.jpg",
+        "Genre": "Horror"
+    },
+    {
+        "Name": "The Tree of Life",
+        "Year": "2011",
+        "Director": "Terrence Malick",
+        "Country": "United States",
+        "ShortDescription": "The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents' conflicting teachings.",
+        "PosterImage": "https://example.com/tree_of_life_poster.jpg",
+        "Genre": "Drama"
+    },
+    {
+        "Name": "The Big Lebowski",
+        "Year": "1998",
+        "Director": "Joel Coen, Ethan Coen",
+        "Country": "United States",
+        "ShortDescription": "Jeff The Dude Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
+        "PosterImage": "https://example.com/big_lebowski_poster.jpg",
+        "Genre": "Comedy"
+    },
+    {
+        "Name": "No Country for Old Men",
+        "Year": "2007",
+        "Director": "Joel Coen, Ethan Coen",
+        "Country": "United States",
+        "ShortDescription": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+        "PosterImage": "https://example.com/no_country_poster.jpg",
+        "Genre": "Crime"
+    },
+    {
+        "Name": "Solaris",
+        "Year": "1972",
+        "Director": "Andrei Tarkovsky",
+        "Country": "Soviet Union",
+        "ShortDescription": "A psychologist is sent to a station orbiting a distant planet in order to discover what has caused the crew to go insane.",
+        "PosterImage": "https://example.com/solaris_poster.jpg",
+        "Genre": "Science Fiction"
+    },
+    {
+        "Name": "Rosemary's Baby",
+        "Year": "1968",
+        "Director": "Roman Polanski",
+        "Country": "United States",
+        "ShortDescription": "A young couple moves into an apartment only to be surrounded by peculiar neighbors and occurrences. When the wife becomes mysteriously pregnant, paranoia over the safety of her unborn child begins controlling her life.",
+        "PosterImage": "https://example.com/rosemarys_baby_poster.jpg",
+        "Genre": "Horror"
+    },
+    {
+        "Name": "Claire's Knee",
+        "Year": 1970,
+        "Genre": "Drama",
+        "Director": "Eric Rohmer",
+        "Country": "France",
+        "ShortDescription": "Jérôme, a French diplomat, is on a visit to Lake Geneva and, in search of the ideal girl, he meets Laura, a newly appointed teacher from Paris, and falls in love.",
+        "PosterImage": "https://example.com/claires_knee_poster.jpg"
+    },
+    {
+        "Name": "Life is Beautiful",
+        "Year": 1997,
+        "Genre": "Comedy",
+        "Director": "Roberto Benigni",
+        "Country": "Italy",
+        "ShortDescription": "A Jewish man has a wonderful romance with the help of his humour, but must use that same quality to protect his son in a Nazi concentration camp.",
+        "PosterImage": "https://example.com/life_is_beautiful_poster.jpg"
+    },
+    {
+        "Name": "Wings of Desire",
+        "Year": 1987,
+        "Genre": "Fantasy",
+        "Director": "Wim Wenders",
+        "Country": "Germany, France",
+        "ShortDescription": "An angel tires of overseeing human activity and wishes to become human when he falls in love with a mortal.",
+        "PosterImage": "https://example.com/wings_of_desire_poster.jpg"
+    }
+]
