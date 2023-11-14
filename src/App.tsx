@@ -6,7 +6,9 @@ import MovieForm from './components/MovieForm';
 import Navbar from './components/Navbar';
 import SignIn from './components/auth/SignIn';
 import SignUp from './components/auth/SignUp';
-import Home from './pages/HomePage'; // Update the import path for Home
+
+import HomePage from './pages/HomePage';
+
 
 const App: React.FC = () => {
   return (
@@ -15,7 +17,8 @@ const App: React.FC = () => {
         <Navbar />
         <hr />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path='/' element={<HomePage />} />
+          <Route path='/home' element={<HomePage />} />
           <Route path="/movies" element={<Movies />} />
           <Route path="/add" element={<MovieForm />} />
           <Route path="/signin" element={<SignIn />} />

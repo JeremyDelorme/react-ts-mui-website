@@ -1,4 +1,3 @@
-// src/components/Navbar.tsx
 import React, { useState, useEffect } from 'react';
 import {
     AppBar,
@@ -19,7 +18,7 @@ import {
     signInWithEmailAndPassword,
     signOut,
 } from 'firebase/auth';
-import { initializeApp } from 'firebase/app';
+import { initializeApp } from 'firebase/app'; // Move this import to the top
 import { getAuth } from 'firebase/auth';
 
 import AuthDetails from './auth/AuthDetails';

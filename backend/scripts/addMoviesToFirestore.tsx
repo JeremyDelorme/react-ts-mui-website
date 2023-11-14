@@ -1,10 +1,17 @@
-// src/scripts/addMoviesToFirestore.ts
-import { initializeApp } from 'firebase/app';
-import { getFirestore, collection, addDoc } from 'firebase/firestore';
-import * as moviesData from '../models/Movie.json';
+
+const { initializeApp } = require('firebase/app');
+const { getFirestore, collection, addDoc } = require('firebase/firestore');
+
+import moviesData from '../data/moviesData';
 
 const firebaseConfig = {
-    // Your Firebase config here
+    apiKey: "AIzaSyBfVlKzSBNfzhzzTbNySCNS2rSmJ4VKzmA",
+    authDomain: "my-ts-react-website.firebaseapp.com",
+    projectId: "my-ts-react-website",
+    storageBucket: "my-ts-react-website.appspot.com",
+    messagingSenderId: "69831032370",
+    appId: "1:69831032370:web:4ae5a0dae0ed8b0148c62b",
+    measurementId: "G-7LCKCGHZYF"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
