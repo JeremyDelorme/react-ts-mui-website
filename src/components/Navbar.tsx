@@ -18,7 +18,7 @@ import {
     signInWithEmailAndPassword,
     signOut,
 } from 'firebase/auth';
-import { initializeApp } from 'firebase/app'; // Move this import to the top
+import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 
 import AuthDetails from './auth/AuthDetails';
@@ -38,16 +38,27 @@ const auth = getAuth(firebaseApp);
 
 const styles: Record<string, React.CSSProperties> = {
     appBar: {
-        backgroundColor: 'your-color-here', // replace with your color
+        backgroundColor: '#d2b48c', // Sweet brown color
+        display: 'flex',
+        justifyContent: 'space-between',
+        padding: '0 16px',
     },
     title: {
         flexGrow: 1,
     },
+    authButtonsContainer: {
+        display: 'flex',
+        gap: '16px', // Adjust the gap as needed for standard spacing
+    },
+    signInButton: {
+        backgroundColor: '#D66207', // Pink color
+    },
+    signUpButton: {
+        backgroundColor: '#873E04', // Darker pink color
+    },
 };
 
-interface NavbarProps {
-    // Add any additional props if needed
-}
+interface NavbarProps { }
 
 const Navbar: React.FC<NavbarProps> = () => {
     const [user, setUser] = useState<User | null>(null);
@@ -110,21 +121,21 @@ const Navbar: React.FC<NavbarProps> = () => {
     return (
         <>
             <AppBar position="static" style={styles.appBar}>
-                <Toolbar>
+                <Toolbar style={styles.appBar}>
                     <Typography variant="h6" style={styles.title}>
                         My Movie App
                     </Typography>
                     {user ? (
                         <AuthDetails user={user} onSignOut={handleSignOut} />
                     ) : (
-                        <>
-                            <Button color="inherit" onClick={() => setSignInDialogOpen(true)}>
+                        <div style={styles.authButtonsContainer}>
+                            <Button color="inherit" style={styles.signInButton} onClick={() => setSignInDialogOpen(true)}>
                                 Sign In
                             </Button>
-                            <Button color="inherit" onClick={() => setSignUpDialogOpen(true)}>
+                            <Button color="inherit" style={styles.signUpButton} onClick={() => setSignUpDialogOpen(true)}>
                                 Sign Up
                             </Button>
-                        </>
+                        </div>
                     )}
                 </Toolbar>
             </AppBar>
