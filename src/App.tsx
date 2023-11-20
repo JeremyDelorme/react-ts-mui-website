@@ -9,6 +9,8 @@ import SignUp from './components/auth/SignUp';
 
 import HomePage from './pages/HomePage';
 
+import './index.css'; // Import your global CSS file
+
 
 const App: React.FC = () => {
   return (

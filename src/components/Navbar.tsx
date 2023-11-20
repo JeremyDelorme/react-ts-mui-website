@@ -23,6 +23,7 @@ import { getAuth } from 'firebase/auth';
 
 import AuthDetails from './auth/AuthDetails';
 
+
 const firebaseConfig = {
     apiKey: "AIzaSyBfVlKzSBNfzhzzTbNySCNS2rSmJ4VKzmA",
     authDomain: "my-ts-react-website.firebaseapp.com",
@@ -38,13 +39,14 @@ const auth = getAuth(firebaseApp);
 
 const styles: Record<string, React.CSSProperties> = {
     appBar: {
-        backgroundColor: '#d2b48c', // Sweet brown color
+        backgroundColor: '#EBB027', // Baby pink to dark red
         display: 'flex',
         justifyContent: 'space-between',
         padding: '0 16px',
     },
     title: {
         flexGrow: 1,
+        fontWeight: 'bold', // Making the font weight bolder
     },
     authButtonsContainer: {
         display: 'flex',
@@ -52,11 +54,14 @@ const styles: Record<string, React.CSSProperties> = {
     },
     signInButton: {
         backgroundColor: '#D66207', // Pink color
+        fontWeight: 'bold', // Making the font weight bolder
     },
     signUpButton: {
         backgroundColor: '#873E04', // Darker pink color
+        fontWeight: 'bold', // Making the font weight bolder
     },
 };
+
 
 interface NavbarProps { }
 

@@ -5,12 +5,16 @@ import App from './App';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
+  typography: {
+    fontFamily: 'Josefin Slab, sans-serif',
+    fontWeightBold: '100%'
+  },
   palette: {
     primary: {
       main: '#FF4081', // Your primary color
     },
     secondary: {
-      main: '#4CAF50', // Your secondary color
+      main: '#000000', // Your secondary color
     },
   },
   // Add other customizations as needed
