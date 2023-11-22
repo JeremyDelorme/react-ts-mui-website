@@ -1,4 +1,3 @@
-// src/pages/HomePage.tsx
 import React, { useEffect, useState } from 'react';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
@@ -9,21 +8,19 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import { getFirestore, collection, getDocs, DocumentData, QueryDocumentSnapshot } from 'firebase/firestore';
-import MovieModal from '../components/modals/MovieModal'; // Import the MovieModal component
+import MovieModal from '../components/modals/MovieModal';
 
-// Define the Movie type based on your data structure
 interface Movie {
     title: string;
     shortDescription: string;
     director: string;
-    // Add other properties as needed
     posterImage: string;
 }
 
 const HomePage = () => {
     const [movies, setMovies] = useState<QueryDocumentSnapshot<DocumentData>[]>([]);
     const [selectedMovie, setSelectedMovie] = useState<Movie | null>(null);
-    const [openModal, setOpenModal] = useState(false); // State to control the modal
+    const [openModal, setOpenModal] = useState(false);
 
     useEffect(() => {
         const fetchMovies = async () => {
@@ -40,11 +37,11 @@ const HomePage = () => {
     const handleCardClick = (movie: QueryDocumentSnapshot<DocumentData>) => {
         const movieData: Movie = movie.data() as Movie;
         setSelectedMovie(movieData);
-        setOpenModal(true); // Open the modal on card click
+        setOpenModal(true);
     };
 
     return (
-        <Box sx={{ fontFamily: 'Josefin Slab, sans-serif', mx: 'auto', display: 'flex', justifyContent: 'center', mt: 4, fontWeight: 'bolder' }}>
+        <Box sx={{ mx: 'auto', display: 'flex', justifyContent: 'center', mt: 4, fontWeight: 'normal' }}>
             <Grid container spacing={4}>
                 {movies.map((movie, index) => {
                     const movieData: Movie = movie.data() as Movie;
@@ -62,8 +59,8 @@ const HomePage = () => {
                                         boxShadow: 8,
                                     },
                                     background: 'linear-gradient(to bottom, #FFFFFF, #EBB027 )',
-                                    color: '#000',
-                                    fontWeight: 'bolder',
+                                    color: '#333', // Darkened text color for better readability
+                                    fontWeight: 'bold',
                                 }}
                                 onClick={() => handleCardClick(movie)}
                             >
@@ -81,21 +78,21 @@ const HomePage = () => {
                                         flexDirection: 'column',
                                         justifyContent: 'space-between',
                                         height: '160px', // Set a fixed height for the content
-                                        fontFamily: 'Josefin Slab, sans-serif',
                                         fontWeight: 'bold',
                                         padding: '16px',
+                                        color: '#333', // Darkened text color for better readability
                                     }}
                                 >
                                     <div>
-                                        <Typography variant="h5" sx={{ margin: '8px 0', letterSpacing: '2px', color: '#333' }}>
+                                        <Typography variant="h5" sx={{ margin: '8px 0', letterSpacing: '1px', color: '#000' }}>
                                             {movieData.title}
                                         </Typography>
-                                        <Typography variant="body1" sx={{ marginBottom: '8px', letterSpacing: '1px', color: '#000' }}>
+                                        <Typography variant="body1" sx={{ marginBottom: '8px', letterSpacing: '1px', color: '#555' }}>
                                             {movieData.shortDescription}
                                         </Typography>
                                     </div>
                                     <div>
-                                        <Typography variant="subtitle1" sx={{ margin: '8px 0', letterSpacing: '1px', color: '#555' }}>
+                                        <Typography variant="subtitle1" sx={{ margin: '8px 0', letterSpacing: '1px', color: '#888' }}>
                                             Director: {movieData.director}
                                         </Typography>
                                     </div>
@@ -112,12 +109,12 @@ const HomePage = () => {
                                         size="large"
                                         variant="contained"
                                         sx={{
-                                            fontWeight: 'bolder',
+                                            fontWeight: 'bold',
                                             borderRadius: '4px',
                                             background: 'linear-gradient(to bottom, #883E03, #D76206)',
                                             color: '#FFF',
                                             textTransform: 'none',
-                                            fontSize: '16px', // Adjust the font size if needed
+                                            fontSize: '16px',
                                         }}
                                     >
                                         More Info
@@ -132,7 +129,7 @@ const HomePage = () => {
             <MovieModal
                 movieData={selectedMovie}
                 open={openModal}
-                onClose={() => setOpenModal(false)} // Close the modal
+                onClose={() => setOpenModal(false)}
             />
         </Box>
     );

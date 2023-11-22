@@ -6,7 +6,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   typography: {
-    fontFamily: 'Josefin Slab, sans-serif',
+    fontFamily: 'Playfair Display, serif',
     fontWeightBold: '100%'
   },
   palette: {
